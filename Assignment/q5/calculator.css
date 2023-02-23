@@ -1,0 +1,73 @@
+body
+{
+padding: 20px;
+margin: 20px;
+}
+
+
+ .divv{
+  border: solid grey 1px; 
+  padding: 1px 2px;
+  background-color: rgb(241, 241, 241);
+  margin: 1px;
+  border-radius: 4px; 
+  position: absolute;
+}
+
+
+.div1{
+    padding: 15px;
+}
+
+
+td{
+    font-size: 26px;
+    padding: 15px;
+    border:rgb(241, 241, 241) 20px solid ;
+}
+
+
+tr{
+    margin: 5dp;
+    padding: 5dp;
+}
+
+
+td:hover{
+    border: black 2px solid;
+}
+
+
+.sop{
+    border-radius: 5px;
+    text-align: center;
+    color: rgb(100, 100, 100);
+    background-color: rgb(200, 200, 200);
+}
+
+
+.dmase{
+    font-weight: bolder;
+    border-radius: 3px;
+    text-align: center;
+    background-color: rgba(250, 254, 35, 0.923);
+}
+
+
+.num{
+    font-weight: bold;
+    border-radius:3px;
+    text-align: center;
+    background-color: white;
+}
+
+
+.input_tag{
+    margin: 5px;
+    border-radius: 2px;
+    margin-left: 5px;
+    text-align: right;
+    padding: 3px;
+    font-size: 32px;
+
+}

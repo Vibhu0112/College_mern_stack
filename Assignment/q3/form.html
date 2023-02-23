@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <style>
+        .form{
+        background-image: linear-gradient(rgb(103, 192, 230),rgb(142, 215, 238),rgb(196, 161, 220),rgb(222, 155, 204),rgb(213, 137, 208)) 
+    }
+    .word{
+       color: white;
+    }
+
+    </style>
+
+</head>
+<script src="form.js"></script>
+
+<body>
+    <div class="inside form">
+    <form action="res.html" >
+        <table class="word">
+            <tr>
+                <td>
+                    <label>First Name : </label>
+                </td>
+                <td>
+                    <input type="text" id="frst" maxlength="50" class="input_tag" >
+                </td>
+                <td>(max 50 characters allowed)</td>
+            </tr>
+            
+            <tr>
+                <td>
+                    <label>Last Name : </label>
+                </td>
+                <td>
+                    <input type="text" id="last" maxlength="50" class="input_tag" >
+                </td>
+                <td>(max 50 characters allowed)</td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label>Email Id : </label>
+                </td>
+                <td>
+                    <input type="email" id="email" class="input_tag" ><br> 
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label>Mobile Number : </label>
+                </td>
+                <td>
+                    <input type="number" id="phn"  maxlength="10" minlength="10" class="input_tag" ><br>
+                </td>
+                <td>(10 numbers allowed)</td>
+
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="gen">Gender : </label>
+                </td>
+                <td>
+                    <input type="radio" id="male" name="gen"  value="Male"class="gen">
+                    <label>Male</label>
+                    <input type="radio" id="female" name="gen" value="Female" class="gen">
+                    <label>Female</label><br>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label>Date of Birth(DOB) : </label>
+                </td>
+                <td>
+                    <input type="date" name="date" value="Date"><br>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label>Address : </label>
+                </td>
+                <td>
+                    <textarea id="add" cols="30" rows="10" class="input_tag"></textarea><br>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label>City : </label>
+                </td>
+                <td>
+                    <input type="text" id="city" maxlength="50" class="input_tag"><br>
+                </td>
+                <td>(max 50 characters allowed)</td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label >Pincode : </label>
+                </td>
+                <td>
+                    <input type="text" id="pin" maxlength="6" class="input_tag"><br>
+                </td>
+                <td>(max 6 numbers allowed)</td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label>State : </label>
+                </td>
+                <td>
+                    <input type="text" id="state" maxlength="50" class="input_tag"><br>
+                </td>
+                <td>(max 50 characters allowed)</td>
+            </tr>
+        
+            <tr>
+                <td>
+                    <label>Country : </label>
+                </td>
+                <td>
+                    <input type="text" id="Country" class="input_tag"><br>
+                </td>
+            </tr> 
+            
+            <tr>
+                <td>
+                    <label>Hobbies : </label>
+                </td>
+                <td>
+                    <input type="checkbox"  id="draw">
+                    <label>Drawing</label>
+                    <input type="checkbox"  id="sing">
+                    <label>Singing</label>
+                    <input type="checkbox"  id="dance">
+                    <label>Dancing</label>
+                    <input type="checkbox"  id="sketch">
+                    <label>Sketching</label><br>
+                    <input type="checkbox"  id="other">
+                    <label>Others</label>
+                    <input type="text" id="others" maxlength="50" class="input_tag"><br>
+                    <!-- if else --> 
+                </td>
+                <td>(max 50 characters allowed)</td>
+            </tr> 
+            
+<br/>
+            <tr>
+                <td>
+                    <label>Qualifications : </label><br>
+                </td>
+                <td>
+                    <input type="checkbox"  id="ten">
+                    <label>High School(10th)</label><br>
+                    <input type="checkbox"  id="twelve">
+                    <label>Higher School(12th)</label><br>
+                    <input type="checkbox"  id="b">
+                    <label>Graduation(Bachelors)</label><br>
+                    <input type="checkbox"  id="m">
+                    <label>Post Graduation(Masters)</label><br>
+                    <input type="checkbox"  id="phd">
+                    <label>PhD</label><br><br>
+                </td>
+            </tr>   
+            
+            <tr>
+                <td>
+                    <label>Course Applied for : </label><br>
+                </td>
+                <td>
+                    <input type="radio" id="bca" name="course">
+                    <label>BCA (Bachelors of Computer Applications)</label><br>
+                    <input type="radio" id="bcom" name="course">
+                    <label>B.Com (Bachelors of Commerce)</label><br>
+                    <input type="radio" id="bsc" name="course">
+                    <label>B.Sc (Bachelors of Science)</label><br>
+                    <input type="radio" id="ba" name="course">
+                    <label>BA (Bachelors of Arts)</label><br>
+                    <input type="radio" id="mca" name="course">
+                    <label>MCA (Masters of Computer Applications)</label><br>
+                    <input type="radio" id="mcom" name="course">
+                    <label>M.Com (Masters of Commerce)</label><br>
+                    <input type="radio" id="msc" name="course">
+                    <label>M.Sc (Masters of Science)</label><br>
+                    <input type="radio" id="ma" name="course">
+                    <label>MA (Masters of Arts)</label><br>
+                </td>
+            </tr>  
+            
+            <tr>
+                <td>
+                    
+                </td>
+                <td>
+                    <input type="submit" value="Submit" onclick="sub();" class="bttn">
+                    <input type="reset" value="Reset" class="bttn">
+                </td>
+            </tr>
+    </table>
+    </form>
+</div>
+</body>
+</html>

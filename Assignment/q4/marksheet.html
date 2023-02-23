@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html lang="en" >
+<head>
+    <title>total and avg. of marks</title>
+</head>
+<body>
+    <h1>
+        Total:<span id="tot"></span>
+    </h1>
+    <h1>
+        Average:<span id="avg"></span>
+    </h1>
+    <script>
+        function stud(){
+            var s={
+                sno: 01911104421,
+                sname:"Vibhu Dixit",
+                m1:96,
+                m2:98,
+                m3:97
+            }
+            let total = s.m1+s.m2+s.m3;
+            document.getElementById('tot').innerHTML=total;
+            let average = total/3;
+            document.getElementById('avg').innerHTML=average;
+        }
+        stud(); 
+    </script>
+
+</body>
+</html>

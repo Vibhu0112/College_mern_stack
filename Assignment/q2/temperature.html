@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html lang="en" >
+<head>
+    <title>temperature converter</title>
+</head>
+<body>
+  <style>
+    .cen{
+      text-align: center;
+    }
+  </style>
+
+  <script src="temperature.js"></script>
+
+</head>
+
+<body>
+
+  <table align="center">
+
+    <tr>
+      <th colspan="3"> <h2 class="cen">Temperature</h2></th>
+    </tr>
+
+    <tr>
+      <td> 
+<input type="number" id="celsius" 
+        oninput="celtofar(this.value)" onchange="celtofar(this.value)"> 
+</td>
+        <td class="cen">
+  <h1>  =  </h1>
+</td>
+      
+      <td> 
+<input type="number" id="fahrenheit"
+        oninput="fartocel(this.value)" onchange="fartocel(this.value)">
+</td>
+    </tr>
+
+    <tr>
+      <td> <h3 class="cen"> Celsius </h3> </td>
+      <td></td>
+      <td> <h3 class="cen"> Fahrenheit </h3> </td>
+    </tr>
+
+  </table>
+
+</body>
+</html>
